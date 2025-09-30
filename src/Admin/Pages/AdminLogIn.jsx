@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAccount, useDisconnect } from 'wagmi';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
-const ADMIN_ADDRESS = '0x42C31Db2d6B12D5CD81e23d33eab7Abf49188E35';
+const ADMIN_ADDRESS = '0x5EBF3aE370ba563a6d13713f56c9c91C41479FFe';
 
 const AdminLogIn = () => {
   const navigate = useNavigate();

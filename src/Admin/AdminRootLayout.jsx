@@ -17,8 +17,7 @@ const AdminRootLayout = () => {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           {/* Brand */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-xl bg-blue-600" />
-            <span className="font-semibold">ReliefTrace Admin</span>
+           <img src="/logo.png" alt="" />
           </Link>
 
           {/* Nav links */}
